@@ -12,20 +12,19 @@ PImage img;
 
 
 void setup() {
-	size(640, 640);
+  size(640, 640);
   
   state = 0;
-	jpg = new JPGEncoder();
-	
-	background(0);
-	img = createImage( 0 , 0 , RGB );
+  jpg = new JPGEncoder();
+  
+  background(0);
+  img = createImage( 0 , 0 , RGB );
 }
 
 
 void draw() {
-	//checkForIncomingImage();
   manage_serverNetwork();
-	image( img , 0 , 0 );
+  image( img , 0 , 0 );
 }
 
 
