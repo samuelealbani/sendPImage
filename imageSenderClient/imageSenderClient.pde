@@ -69,7 +69,7 @@ void manage_clientNetwork() {
           // we try to encode it
           PImage img = cam.get();
           img.resize( 640 , 0 );
-          byte[] jpgBytes = jpg.encode( img , 0.1F );
+          byte[] jpgBytes = jpg.encode( img , 0.99F );
           // Taken from: https://processing.org/discourse/beta/num_1192330628.html
 //          client.write( jpgBytes.length / 256 );  DOES NOT WORK: THE LENGTH IS AN INT (4 BYTES)
 //          client.write( jpgBytes.length % 256 );  DOES NOT WORK: THE LENGTH IS AN INT (4 BYTES)
