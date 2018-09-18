@@ -1,2 +1,4 @@
 # sendPImage
-Client and server that send PImage to each other. Thanks to "https://github.com/torbjornlunde/processing-experiments"
+Two Processing sketches that send a PImage using the Processing network library from client to server.
+
+Thanks to "https://github.com/torbjornlunde/processing-experiments" for the JPGEncoder class.
