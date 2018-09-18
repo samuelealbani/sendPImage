@@ -3,7 +3,7 @@ import processing.net.*;
 import processing.video.*;
 
 
-// final String serverIP = "192.168.1.4"
+//final String serverIP = "192.168.1.4";
 final String serverIP = "127.0.0.1";
 
 int state;  // the state of the finite-state machine that controlls the sending of data
