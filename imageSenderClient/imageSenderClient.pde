@@ -14,12 +14,12 @@ JPGEncoder jpg;
 
 void setup() {
   state = 0;
-	jpg = new JPGEncoder();
+  jpg = new JPGEncoder();
   
-	cam = new Capture(this, Capture.list()[1]);
-	cam.start();
+  cam = new Capture(this, Capture.list()[1]);
+  cam.start();
   
-	background(0);
+  background(0);
 }
 
 
